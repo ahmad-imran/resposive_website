@@ -1,0 +1,135 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 80%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 0% 100px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.player-info {
+  color: white;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.watching {
+  color: white;
+  background: #DD0000;
+  padding: 16px 25px;
+  border-radius: 5px;
+}
+
+.player {
+  width: 50%;
+  padding-top: 40px;
+
+}
+
+.player img {
+  width: 100%;
+}
+
+#blogs {
+  width: 100%;
+  margin: 40px auto;
+  gap: 24px;
+}
+
+#second-card-list {
+  width: 60%;
+  margin-left: 30%;
+  margin-right: 10%;
+
+}
+
+.second-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.cards {
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.buttons {
+  background: black;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.button {
+  padding: 30px;
+}
+
+#match {
+  width: 252;
+  height: 64px;
+  padding: 17px 39px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#group {
+  width: 252;
+  height: 64px;
+  padding: 17px 39px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#blog {
+  width: 252;
+  height: 64px;
+  padding: 17px 39px;
+  border-radius: 10px;
+  color: white;
+  background: #DD0000;
+}
+
+.player-list {
+  text-align: center;
+  box-shadow: 10px 10px 20px;
+  justify-content: center;
+}
+
+.icon {
+  align-items: center;
+}
+
+footer {
+  background-color: #161616;
+  margin-top: 130px;
+  text-align: center;
+  padding: 50px;
+
+}
+
+hr {
+  margin: 50px 50px;
+}
+
+.footer-itm {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.footer-img img {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
